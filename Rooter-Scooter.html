@@ -5,40 +5,56 @@
     <style>
 
       body {
-        background-color: #909090;
+        background-color: #202020;
       }
 
-      #info {
-        border: 2px solid;
+      p {
+        color: #ffffff;
       }
 
       #overskrift {
-
+        top: 10px;
         text-align: center;
-        color: orange;
+        color: blue;
+        position: relative;
+        z-index: 2;
 
       }
 
       #tag {
         text-align: center;
+        position: relative;
+        top: 20px;
+        z-index: 2;
+        color: #000000;
       }
 
       #Scooter {
-        height: 200px;
-        lenght: 200px;
-        border: 2px solid;
+        height: 500px;
+        lenght: 800px;
+        position: absolute;
+        left: 20%;
+        filter: grayscale(70%);
+        top: 30px;
       }
-      #infotext {
-        width: 400px;
+      #infotekst {
+        width: 600px;
+        border: 2px solid red;
+        top: 550px;
+        position: absolute;
+        left: 350px;
       }
+
     </style>
   </head>
   <body>
-    <h1 id="overskrift">Ruter-Scooter</h1>
-    <p id="tag">-El scooter for fremtiden</p>
 
-    <img src="Scooter.png" id="Scooter">
+    <div id="hoved">
+      <h1 id="overskrift">Ruter-Scooter</h1>
+      <p id="tag">-El scooter for fremtiden</p>
 
+      <img src="Bakgrunn.jpg" id="Scooter">
+    </div>
     <div id="info">
 
       <p id="infotekst">Gjersrud-Stensrud brer seg ut over 4 km2 og med kun to t-banestopp i bydelen er det et behov
