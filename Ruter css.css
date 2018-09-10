@@ -1,0 +1,82 @@
+body {
+  background-color: #202020;
+}
+
+p {
+  color: #ffffff;
+}
+
+#overskrift {
+  top: 10px;
+  text-align: center;
+  color: blue;
+  position: relative;
+  z-index: 2;
+
+}
+
+#tag {
+  text-align: center;
+  position: relative;
+  top: 20px;
+  z-index: 2;
+  color: #000000;
+}
+
+#Scooter {
+  height: 500px;
+  lenght: 800px;
+  position: absolute;
+  left: 20%;
+  filter: grayscale(70%);
+  top: 30px;
+}
+#infotekst {
+  width: 600px;
+  border: 2px solid red;
+  top: 550px;
+  position: absolute;
+  left: 350px;
+
+}
+
+@keyframes anim {
+  0% {}
+}
+
+#meny {
+ position: fixed;
+ z-index: 4;
+border: 2px solid;
+ top: 0px;
+ width: 100%;
+ left: 0px;
+ height: 46px;
+ text-align: center;
+ background-color: blue;
+}
+
+#option {
+  display: inline;
+
+  width: 500px;
+  padding: 0px 105px 10px 105px;
+  z-index: 4;
+  background-color: blue;
+  margin: 0;
+}
+
+
+#option:hover  {
+  background-color: orange;
+}
+
+#inni {
+  overflow: hidden;
+  position:absolute;
+  width: 0;
+}
+
+#scooter:hover #inni{
+  width: 100%;
+}
