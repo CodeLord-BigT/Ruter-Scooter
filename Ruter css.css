@@ -90,7 +90,7 @@ p {
 
 #bildetekst {
 position: absolute;
-top: 150px;
+top: 100px;
 left: 50px;
 color: #ffffff;
 font-size: 35px;
@@ -106,6 +106,8 @@ color: #2F4F4F
   z-index: -3;
   left: 500px;
   top: 200px;
+  opacity: 0.8
+
 }
 
 #hvor1 {
