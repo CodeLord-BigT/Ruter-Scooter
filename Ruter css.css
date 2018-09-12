@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   height: 2200px;
   z-index: -5;
+
 }
 
 p {
@@ -60,32 +61,32 @@ p {
  top: 0px;
  width: 100%;
  left: 0px;
- height: 46px;
+ height: 45px;
  text-align: center;
  background-color: #9aca26;
 }
 
 .option {
-  display: inline;
+  display: block;
   font-size: 30px;
-  width: 500px;
-  padding: 20px 115px 13px 115px;
+
+  float: left;
+  position: relative;
+  min-height: 35px;
+  width: 337px;
+  padding-bottom: 10px;
   z-index: 4;
   background-color: #9aca26;
-  margin-left: : 0px;
   color: white;
-
-
-
 }
-
+#toppen, #hvor, #om, #kontakt {
+  color: white;
+}
 
 .option:hover  {
   background-color: #4f4b1b;
 }
-#option4:hover  {
-  background-color: #4f4b1b;
-}
+
 
 #bildetekst {
 position: absolute;
@@ -110,7 +111,7 @@ color: #2F4F4F
 #hvor1 {
   top: 500px;
   position: absolute;
-  width: 1000px;
+  width: 400px;
   left: 520px;
   color: #808080;
 }
@@ -139,7 +140,7 @@ color: #2F4F4F
 }
 
 #kontaktinfo {
-  width: 800px;
+  width: 700px;
   font-size: 20px;
   top: 1400px;
   position: absolute;
