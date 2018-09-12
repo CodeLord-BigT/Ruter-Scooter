@@ -12,7 +12,7 @@ p {
 #overskrift {
   left: 520px;
   text-align: center;
-  color: #808080 ;
+  color: #000000 ;
   position: relative;
   z-index: 2;
 
@@ -46,7 +46,7 @@ p {
 
   position: absolute;
   left: 270px;
-  color: #808080;
+  color: #000000;
 
 }
 
@@ -98,7 +98,7 @@ font-family: "Arial", helvetica, sans-serif;
 }
 
 #gjersrud {
-color: #2F4F4F
+color: #000000
 }
 
 #bakgrunn {
@@ -115,7 +115,7 @@ color: #2F4F4F
   position: absolute;
   width: 400px;
   left: 520px;
-  color: #808080;
+  color: #000000;
 }
 
 #hvorInfo {
@@ -125,7 +125,7 @@ color: #2F4F4F
 
   position: absolute;
   left: 430px;
-  color: #808080;
+  color: #000000;
 }
 #hvorBilde {
   top: 650px;
@@ -138,7 +138,7 @@ color: #2F4F4F
   top: 1250px;
   position: absolute;
   left: 550px;
-  color: #808080;
+  color: #000000;
 }
 
 #kontaktinfo {
@@ -147,5 +147,5 @@ color: #2F4F4F
   top: 1400px;
   position: absolute;
   left: 520px;
-  color: #808080;
+  color: #000000;
 }
