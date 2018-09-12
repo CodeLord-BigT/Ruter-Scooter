@@ -59,19 +59,23 @@ p {
  top: 0px;
  width: 100%;
  left: 0px;
- height: 46px;
+ height: 45px;
  text-align: center;
  background-color: #9aca26;
 }
 
 .option {
-  display: inline;
+  display: block;
   font-size: 30px;
-  width: 500px;
-  padding: 20px 115px 13px 115px;
+
+  float: left;
+  position: relative;
+  min-height: 35px;
+  width: 337px;
+  padding-bottom: 10px;
   z-index: 4;
   background-color: #9aca26;
-  margin-left: : 0px;
+
   color: white;
 
 
@@ -83,9 +87,7 @@ p {
 .option:hover  {
   background-color: #4f4b1b;
 }
-#option4:hover  {
-  background-color: #4f4b1b;
-}
+
 
 #bakgrunn {
   position: fixed;
