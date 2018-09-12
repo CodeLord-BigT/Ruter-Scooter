@@ -5,26 +5,7 @@ body {
 
 }
 
-p {
-  color: #808080;
-}
-
-#overskrift {
-  left: 520px;
-  text-align: center;
-  color: #000000 ;
-  position: relative;
-  z-index: 2;
-
-}
-
-#tag {
-  text-align: center;
-  position: relative;
-  top: 20px;
-  z-index: 2;
-  color: #000000;
-}
+/*Det store bilde*/
 
 #Scooter {
   position: absolute;
@@ -36,9 +17,21 @@ p {
   opacity: 0.8;
 }
 
+/* Div med alle tekst elementene i seg */
+
 #inni {
   top: 560px;
   position: absolute;
+}
+
+/*Alle tekst elementene som er i #inni i rekkefølge */
+
+#overskrift {
+  left: 520px;
+  text-align: center;
+  color: #000000 ;
+  position: relative;
+  z-index: 2;
 }
 #infotekst {
   width: 800px;
@@ -47,12 +40,43 @@ p {
   position: absolute;
   left: 270px;
   color: #000000;
-
 }
-
-@keyframes anim {
-  0% {}
+#hvor1 {
+  top: 500px;
+  position: absolute;
+  width: 400px;
+  left: 520px;
+  color: #000000;
 }
+#hvorBilde {
+  top: 650px;
+  position:absolute;
+  left: 400px;
+}
+#hvorInfo {
+  top: 1180px;
+  width: 800px;
+  font-size: 30px;
+  position: absolute;
+  left: 430px;
+  color: #000000;
+}
+#kontakt2 {
+  width: 800px;
+  top: 1250px;
+  position: absolute;
+  left: 550px;
+  color: #000000;
+}
+#kontaktinfo {
+  width: 700px;
+  font-size: 20px;
+  top: 1400px;
+  position: absolute;
+  left: 520px;
+  color: #000000;
+}
+/* Meny */
 
 #meny {
  position: fixed;
@@ -65,11 +89,9 @@ p {
  text-align: center;
  background-color: #9aca26;
 }
-
 .option {
   display: block;
   font-size: 30px;
-
   float: left;
   position: relative;
   min-height: 35px;
@@ -79,28 +101,25 @@ p {
   background-color: #9aca26;
   color: white;
 }
-#toppen, #hvor, #om, #kontakt {
-  color: white;
-}
-
 .option:hover  {
   background-color: #4f4b1b;
 }
 
+/* Teksten på det store bilde */
 
 #bildetekst {
-position: absolute;
-top: 100px;
-left: 50px;
-color: #000000;
-font-size: 35px;
-font-family: "Arial", helvetica, sans-serif;
-
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  color: #000000;
+  font-size: 35px;
+  font-family: "Arial", helvetica, sans-serif;
 }
-
 #gjersrud {
-color: #000000
+  color: #000000
 }
+
+/*Bakgrunen som følger hele tiden*/
 
 #bakgrunn {
   position: fixed;
@@ -108,45 +127,4 @@ color: #000000
   left: 500px;
   top: 200px;
   opacity: 0.8
-
-}
-
-#hvor1 {
-  top: 500px;
-  position: absolute;
-  width: 400px;
-  left: 520px;
-  color: #000000;
-}
-
-#hvorInfo {
-  top: 1180px;
-  width: 800px;
-  font-size: 30px;
-
-  position: absolute;
-  left: 430px;
-  color: #000000;
-}
-#hvorBilde {
-  top: 650px;
-  position:absolute;
-  left: 400px;
-}
-#kontakt2 {
-  width: 800px;
-
-  top: 1250px;
-  position: absolute;
-  left: 550px;
-  color: #000000;
-}
-
-#kontaktinfo {
-  width: 700px;
-  font-size: 20px;
-  top: 1400px;
-  position: absolute;
-  left: 520px;
-  color: #000000;
 }
