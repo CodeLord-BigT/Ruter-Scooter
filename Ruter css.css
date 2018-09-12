@@ -75,13 +75,11 @@ p {
   padding-bottom: 10px;
   z-index: 4;
   background-color: #9aca26;
-
   color: white;
-
-
-
 }
-
+#toppen, #hvor, #om, #kontakt {
+  color: white;
+}
 
 
 .option:hover  {
