@@ -2,6 +2,7 @@ body {
   background-color: #ffffff;
   height: 2200px;
   z-index: -5;
+
 }
 
 p {
@@ -96,7 +97,7 @@ p {
 #hvor1 {
   top: 500px;
   position: absolute;
-  width: 1000px;
+  width: 400px;
   left: 520px;
   color: #808080;
 }
@@ -125,7 +126,7 @@ p {
 }
 
 #kontaktinfo {
-  width: 800px;
+  width: 700px;
   font-size: 20px;
   top: 1400px;
   position: absolute;
